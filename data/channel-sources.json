@@ -1,0 +1,2587 @@
+{
+    "央视::CCTV1综合": {
+        "groupName": "央视",
+        "channelName": "CCTV1综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2201\/057\/821\/202204010054_1626677671392_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608807420",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV2财经": {
+        "groupName": "央视",
+        "channelName": "CCTV2财经",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/346\/945\/202205311432_1626678578843_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/631780532",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV3综艺": {
+        "groupName": "央视",
+        "channelName": "CCTV3综艺",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/212\/864\/202204010055_1626679244629_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/624878271",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV4中文国际": {
+        "groupName": "央视",
+        "channelName": "CCTV4中文国际",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/346\/947\/202204010054_1626679413842_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/631780421",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV5体育": {
+        "groupName": "央视",
+        "channelName": "CCTV5体育",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/516\/171\/202204010048_1626679603804_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/641886683",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV5+体育赛事": {
+        "groupName": "央视",
+        "channelName": "CCTV5+体育赛事",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/516\/288\/202204010048_1626679712843_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/641886773",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV6电影": {
+        "groupName": "央视",
+        "channelName": "CCTV6电影",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/212\/872\/202204010054_1626679914432_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/624878396",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV7国防军事": {
+        "groupName": "央视",
+        "channelName": "CCTV7国防军事",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5501\/083\/622\/202204010054_1626680119210_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/673168121",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV8电视剧": {
+        "groupName": "央视",
+        "channelName": "CCTV8电视剧",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/212\/868\/202204010049_1626677150014_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/624878356",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV9纪录": {
+        "groupName": "央视",
+        "channelName": "CCTV9纪录",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5501\/083\/624\/202603081600_1772956792519_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/673168140",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV10科教": {
+        "groupName": "央视",
+        "channelName": "CCTV10科教",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/212\/874\/202204010054_1626677767922_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/624878405",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV11戏曲": {
+        "groupName": "央视",
+        "channelName": "CCTV11戏曲",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/988\/610\/202204010054_1626677922732_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/667987558",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV12社会与法": {
+        "groupName": "央视",
+        "channelName": "CCTV12社会与法",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5501\/083\/627\/202204010053_1626678108629_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/673168185",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV13新闻": {
+        "groupName": "央视",
+        "channelName": "CCTV13新闻",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2202\/208\/864\/202204010051_2202208864_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608807423",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV14少儿": {
+        "groupName": "央视",
+        "channelName": "CCTV14少儿",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/212\/875\/202204010054_1626678147073_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/624878440",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV15音乐": {
+        "groupName": "央视",
+        "channelName": "CCTV15音乐",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5501\/083\/628\/202204010054_1626678245130_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/673168223",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV17农业农村": {
+        "groupName": "央视",
+        "channelName": "CCTV17农业农村",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5501\/083\/631\/202204010052_1626678428060_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/673168256",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV4欧洲": {
+        "groupName": "央视",
+        "channelName": "CCTV4欧洲",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/315\/202204010055_1626831010992_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608807419",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CCTV4美洲": {
+        "groupName": "央视",
+        "channelName": "CCTV4美洲",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/344\/202204010055_1626830746239_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608807416",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CGTN外语纪录": {
+        "groupName": "央视",
+        "channelName": "CGTN外语纪录",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/356\/202502251602_1740470541608_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609006487",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CGTN阿拉伯语": {
+        "groupName": "央视",
+        "channelName": "CGTN阿拉伯语",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/303\/202502251557_1740470230464_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609154345",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CGTN西班牙语": {
+        "groupName": "央视",
+        "channelName": "CGTN西班牙语",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/337\/202502251600_1740470437874_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609006450",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CGTN法语": {
+        "groupName": "央视",
+        "channelName": "CGTN法语",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/324\/202502251559_1740470371334_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609006476",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CGTN俄语": {
+        "groupName": "央视",
+        "channelName": "CGTN俄语",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/332\/202502251558_1740470314603_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609006446",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::老故事": {
+        "groupName": "央视",
+        "channelName": "老故事",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/022\/002\/202405081702_1715158648861_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/884121956",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::发现之旅": {
+        "groupName": "央视",
+        "channelName": "发现之旅",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/212\/893\/202405081702_1715158828498_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/624878970",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::中学生": {
+        "groupName": "央视",
+        "channelName": "中学生",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/019\/355\/202405081702_1715158115119_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/708869532",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "央视::CGTN": {
+        "groupName": "央视",
+        "channelName": "CGTN",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2202\/196\/407\/202204010052_1642124778350_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609017205",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "体育::CCTV5体育": {
+        "groupName": "体育",
+        "channelName": "CCTV5体育",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/516\/171\/202204010048_1626679603804_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/641886683",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "体育::CCTV5+体育赛事": {
+        "groupName": "体育",
+        "channelName": "CCTV5+体育赛事",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/516\/288\/202204010048_1626679712843_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/641886773",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "体育::赛事最经典": {
+        "groupName": "体育",
+        "channelName": "赛事最经典",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/592\/947\/202204010047_5101034296_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/646596895",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "体育::体坛名栏汇": {
+        "groupName": "体育",
+        "channelName": "体坛名栏汇",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/315\/687\/202204010048_5101034219_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/629943305",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "体育::四海钓鱼": {
+        "groupName": "体育",
+        "channelName": "四海钓鱼",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/184\/202508040856_5100132656_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/637444975",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "体育::陕西体育休闲频道": {
+        "groupName": "体育",
+        "channelName": "陕西体育休闲频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/189\/202512011438_1764571080735_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/956909356",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "体育::24小时城市联赛轮播台": {
+        "groupName": "体育",
+        "channelName": "24小时城市联赛轮播台",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/022\/136\/202509241340_1758692392561_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/915512915",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "体育::武术世界": {
+        "groupName": "体育",
+        "channelName": "武术世界",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/201\/202509251348_1758698474363_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/958475359",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "体育::快乐垂钓": {
+        "groupName": "体育",
+        "channelName": "快乐垂钓",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/317\/202512290851_1766567876635_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/961930263",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::东方卫视": {
+        "groupName": "卫视",
+        "channelName": "东方卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/185\/202508040856_5100043384_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/651632648",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::江苏卫视": {
+        "groupName": "卫视",
+        "channelName": "江苏卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/199\/408\/202104022140_5100156802_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/623899368",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::广东卫视": {
+        "groupName": "卫视",
+        "channelName": "广东卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2202\/428\/795\/202107191524_2202428795_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608831231",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::北京卫视": {
+        "groupName": "卫视",
+        "channelName": "北京卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/306\/202512091630_1765269008692_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/630287636",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::辽宁卫视": {
+        "groupName": "卫视",
+        "channelName": "辽宁卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/198\/202509221600_5101043014_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/630291707",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::河北卫视": {
+        "groupName": "卫视",
+        "channelName": "河北卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/316\/202512310003_1766556161260_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/962042070",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::江西卫视": {
+        "groupName": "卫视",
+        "channelName": "江西卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/021\/492\/202303201551_1658134104486_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/783847495",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::河南卫视": {
+        "groupName": "卫视",
+        "channelName": "河南卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/021\/585\/202304031400_1679994692427_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/790187291",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::陕西卫视": {
+        "groupName": "卫视",
+        "channelName": "陕西卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/020\/475\/202207191732_1658131370190_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/738910838",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::大湾区卫视": {
+        "groupName": "卫视",
+        "channelName": "大湾区卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/322\/852\/202304081513_1677570739176_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608917627",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::湖北卫视": {
+        "groupName": "卫视",
+        "channelName": "湖北卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/022\/163\/202501231715_1658138615859_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/947472496",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::吉林卫视": {
+        "groupName": "卫视",
+        "channelName": "吉林卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/022\/164\/202501231715_1658138733016_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/947472500",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::青海卫视": {
+        "groupName": "卫视",
+        "channelName": "青海卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/022\/166\/202501231715_1658138545016_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/947472506",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::东南卫视": {
+        "groupName": "卫视",
+        "channelName": "东南卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/182\/202507151427_1744624877917_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/849116810",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::海南卫视": {
+        "groupName": "卫视",
+        "channelName": "海南卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/022\/165\/202501231715_1658138869802_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/947472502",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::海峡卫视": {
+        "groupName": "卫视",
+        "channelName": "海峡卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/183\/202507151427_1690875420570_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/849119120",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::中国农林卫视": {
+        "groupName": "卫视",
+        "channelName": "中国农林卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/186\/202508051621_1754370274934_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/956904896",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::兵团卫视": {
+        "groupName": "卫视",
+        "channelName": "兵团卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/192\/202508061552_1754385902654_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/956923145",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::宁夏卫视": {
+        "groupName": "卫视",
+        "channelName": "宁夏卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/262\/202510241641_1658131953051_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/738910535",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::重庆卫视": {
+        "groupName": "卫视",
+        "channelName": "重庆卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/305\/202512021827_1658131240998_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/738910914",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "卫视::三沙卫视": {
+        "groupName": "卫视",
+        "channelName": "三沙卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/307\/202512081329_1764320715088_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/961023778",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::上海新闻综合": {
+        "groupName": "地方",
+        "channelName": "上海新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/325\/202512311824_5100001716_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/651632657",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::上视东方影视": {
+        "groupName": "地方",
+        "channelName": "上视东方影视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/002\/274\/202105271333_5100001715_2_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/617290047",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::上海第一财经": {
+        "groupName": "地方",
+        "channelName": "上海第一财经",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2201\/008\/312\/202209271630_2201008312_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608780988",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::南京新闻综合频道": {
+        "groupName": "地方",
+        "channelName": "南京新闻综合频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/021\/863\/202307121521_1689144372702_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/838109047",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::南京教科频道": {
+        "groupName": "地方",
+        "channelName": "南京教科频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/021\/865\/202307121700_1689146730747_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/838153729",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::南京十八频道": {
+        "groupName": "地方",
+        "channelName": "南京十八频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/021\/864\/202307121658_1689146948769_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/838151753",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::体育休闲频道": {
+        "groupName": "地方",
+        "channelName": "体育休闲频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/260\/554\/202104022139_5100186459_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/626064707",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::江苏城市频道": {
+        "groupName": "地方",
+        "channelName": "江苏城市频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/260\/508\/202104022138_5100186409_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/626064714",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::江苏国际": {
+        "groupName": "地方",
+        "channelName": "江苏国际",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/260\/577\/202104022139_5100186482_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/626064674",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::江苏教育": {
+        "groupName": "地方",
+        "channelName": "江苏教育",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/287\/493\/202104022139_5101012819_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/628008321",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::江苏影视频道": {
+        "groupName": "地方",
+        "channelName": "江苏影视频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/260\/517\/202104022138_5100186424_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/626064697",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::江苏综艺频道": {
+        "groupName": "地方",
+        "channelName": "江苏综艺频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/260\/513\/202104022039_5100186420_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/626065193",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::公共新闻频道": {
+        "groupName": "地方",
+        "channelName": "公共新闻频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/260\/520\/202104022138_5100186429_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/626064693",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::盐城新闻综合": {
+        "groupName": "地方",
+        "channelName": "盐城新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/360\/202212301654_5102012617_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731825",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::淮安新闻综合": {
+        "groupName": "地方",
+        "channelName": "淮安新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/363\/202104022141_5102012618_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731826",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::泰州新闻综合": {
+        "groupName": "地方",
+        "channelName": "泰州新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/354\/202104071213_5102012615_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731818",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::连云港新闻综合": {
+        "groupName": "地方",
+        "channelName": "连云港新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/369\/202104022140_5102012621_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731715",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::宿迁新闻综合": {
+        "groupName": "地方",
+        "channelName": "宿迁新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/357\/202104022141_5102012616_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731832",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::徐州新闻综合": {
+        "groupName": "地方",
+        "channelName": "徐州新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/368\/202104022141_5102012620_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731747",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::优漫卡通频道": {
+        "groupName": "地方",
+        "channelName": "优漫卡通频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/260\/553\/202104022139_5100186455_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/626064703",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::江阴新闻综合": {
+        "groupName": "地方",
+        "channelName": "江阴新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/177\/202506121842_1749616874292_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/955227979",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::南通新闻综合": {
+        "groupName": "地方",
+        "channelName": "南通新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/178\/202506121842_1749617000499_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/955227985",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::宜兴新闻综合": {
+        "groupName": "地方",
+        "channelName": "宜兴新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/179\/202506121843_1749617094510_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/955227996",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::溧水新闻综合": {
+        "groupName": "地方",
+        "channelName": "溧水新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/349\/202506201638_1750408486645_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639737327",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::陕西银龄频道": {
+        "groupName": "地方",
+        "channelName": "陕西银龄频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/191\/202508051746_1754371397446_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/956909362",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::陕西都市青春频道": {
+        "groupName": "地方",
+        "channelName": "陕西都市青春频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/190\/202508051746_1754371284700_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/956909358",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::陕西体育休闲频道": {
+        "groupName": "地方",
+        "channelName": "陕西体育休闲频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/189\/202512011438_1764571080735_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/956909356",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::陕西秦腔频道": {
+        "groupName": "地方",
+        "channelName": "陕西秦腔频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/188\/202508051741_1754370560985_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/956909303",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::陕西新闻资讯频道": {
+        "groupName": "地方",
+        "channelName": "陕西新闻资讯频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/187\/202512011439_1764571160925_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/956909289",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::财富天下": {
+        "groupName": "地方",
+        "channelName": "财富天下",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/193\/202508061552_1754385779498_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/956923159",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::镇江新闻综合": {
+        "groupName": "地方",
+        "channelName": "镇江新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/365\/202104022141_5102012619_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731783",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::海南广播电视总台新闻频道": {
+        "groupName": "地方",
+        "channelName": "海南广播电视总台新闻频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/326\/202605111901_1778497030792_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/962067517",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::海南广播电视总台自贸频道": {
+        "groupName": "地方",
+        "channelName": "海南广播电视总台自贸频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/324\/202605111850_1778496560868_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/962045226",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::海南广播电视总台社会与法频道": {
+        "groupName": "地方",
+        "channelName": "海南广播电视总台社会与法频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/323\/202605111613_1778233391251_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/962045223",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::海南广播电视总台文旅频道": {
+        "groupName": "地方",
+        "channelName": "海南广播电视总台文旅频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/329\/202605111613_1778233282865_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/962067526",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "地方::海南广播电视总台少儿频道": {
+        "groupName": "地方",
+        "channelName": "海南广播电视总台少儿频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/328\/202605111614_1778232654695_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/962067523",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::CCTV1综合": {
+        "groupName": "影视",
+        "channelName": "CCTV1综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2201\/057\/821\/202204010054_1626677671392_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608807420",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::CCTV6电影": {
+        "groupName": "影视",
+        "channelName": "CCTV6电影",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/212\/872\/202204010054_1626679914432_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/624878396",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::CCTV8电视剧": {
+        "groupName": "影视",
+        "channelName": "CCTV8电视剧",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/212\/868\/202204010049_1626677150014_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/624878356",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::东方卫视": {
+        "groupName": "影视",
+        "channelName": "东方卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/185\/202508040856_5100043384_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/651632648",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::江苏卫视": {
+        "groupName": "影视",
+        "channelName": "江苏卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/199\/408\/202104022140_5100156802_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/623899368",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::经典香港电影": {
+        "groupName": "影视",
+        "channelName": "经典香港电影",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/242\/089\/202508211805_1755769511908_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/625703337",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::抗战经典影片": {
+        "groupName": "影视",
+        "channelName": "抗战经典影片",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/002\/717\/202507241513_1753340553498_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/617432318",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::新片放映厅": {
+        "groupName": "影视",
+        "channelName": "新片放映厅",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/035\/175\/202405061742_1714988159903_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/619495952",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::CHC影迷电影": {
+        "groupName": "影视",
+        "channelName": "CHC影迷电影",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/022\/176\/202504161629_1744788999453_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/952383261",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::CHC动作电影": {
+        "groupName": "影视",
+        "channelName": "CHC动作电影",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/554\/795\/202308221159_1692676746119_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/644368714",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::CHC家庭影院": {
+        "groupName": "影视",
+        "channelName": "CHC家庭影院",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/554\/911\/202308221200_1692676843082_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/644368373",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::和美乡途轮播台": {
+        "groupName": "影视",
+        "channelName": "和美乡途轮播台",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/019\/525\/202504151721_1744708812840_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/713591450",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "影视::南方影视": {
+        "groupName": "影视",
+        "channelName": "南方影视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2206\/173\/738\/202304081513_2206173738_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/614961829",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::CCTV1综合": {
+        "groupName": "新闻",
+        "channelName": "CCTV1综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2201\/057\/821\/202204010054_1626677671392_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608807420",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::CCTV2财经": {
+        "groupName": "新闻",
+        "channelName": "CCTV2财经",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/346\/945\/202205311432_1626678578843_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/631780532",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::CCTV4中文国际": {
+        "groupName": "新闻",
+        "channelName": "CCTV4中文国际",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/346\/947\/202204010054_1626679413842_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/631780421",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::CCTV13新闻": {
+        "groupName": "新闻",
+        "channelName": "CCTV13新闻",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2202\/208\/864\/202204010051_2202208864_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608807423",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::中国航天“逆袭”之路": {
+        "groupName": "新闻",
+        "channelName": "中国航天“逆袭”之路",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/019\/527\/202604231122_1776914362984_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/713600957",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::经典香港电影": {
+        "groupName": "新闻",
+        "channelName": "经典香港电影",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/242\/089\/202508211805_1755769511908_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/625703337",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::CGTN法语": {
+        "groupName": "新闻",
+        "channelName": "CGTN法语",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/324\/202502251559_1740470371334_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609006476",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::CGTN俄语": {
+        "groupName": "新闻",
+        "channelName": "CGTN俄语",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/332\/202502251558_1740470314603_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609006446",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::CGTN阿拉伯语": {
+        "groupName": "新闻",
+        "channelName": "CGTN阿拉伯语",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/303\/202502251557_1740470230464_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609154345",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::CGTN西班牙语": {
+        "groupName": "新闻",
+        "channelName": "CGTN西班牙语",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/337\/202502251600_1740470437874_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609006450",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::中国天气": {
+        "groupName": "新闻",
+        "channelName": "中国天气",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/296\/202511061701_1762241901460_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/959986621",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::公共新闻频道": {
+        "groupName": "新闻",
+        "channelName": "公共新闻频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/260\/520\/202104022138_5100186429_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/626064693",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::淮安新闻综合": {
+        "groupName": "新闻",
+        "channelName": "淮安新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/363\/202104022141_5102012618_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731826",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::宿迁新闻综合": {
+        "groupName": "新闻",
+        "channelName": "宿迁新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/357\/202104022141_5102012616_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731832",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::徐州新闻综合": {
+        "groupName": "新闻",
+        "channelName": "徐州新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/368\/202104022141_5102012620_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731747",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::盐城新闻综合": {
+        "groupName": "新闻",
+        "channelName": "盐城新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/360\/202212301654_5102012617_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731825",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::江阴新闻综合": {
+        "groupName": "新闻",
+        "channelName": "江阴新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/177\/202506121842_1749616874292_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/955227979",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::南通新闻综合": {
+        "groupName": "新闻",
+        "channelName": "南通新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/178\/202506121842_1749617000499_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/955227985",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::宜兴新闻综合": {
+        "groupName": "新闻",
+        "channelName": "宜兴新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/179\/202506121843_1749617094510_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/955227996",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::溧水新闻综合": {
+        "groupName": "新闻",
+        "channelName": "溧水新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/349\/202506201638_1750408486645_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639737327",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::陕西新闻资讯频道": {
+        "groupName": "新闻",
+        "channelName": "陕西新闻资讯频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/187\/202512011439_1764571160925_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/956909289",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::镇江新闻综合": {
+        "groupName": "新闻",
+        "channelName": "镇江新闻综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/469\/365\/202104022141_5102012619_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/639731783",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "新闻::海南广播电视总台新闻频道": {
+        "groupName": "新闻",
+        "channelName": "海南广播电视总台新闻频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/326\/202605111901_1778497030792_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/962067517",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "教育::CETV1": {
+        "groupName": "教育",
+        "channelName": "CETV1",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/022\/150\/202407181432_1721283631491_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/923287154",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "教育::CETV2": {
+        "groupName": "教育",
+        "channelName": "CETV2",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/022\/152\/202407181432_1721283782530_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/923287211",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "教育::CETV4": {
+        "groupName": "教育",
+        "channelName": "CETV4",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/022\/154\/202407181433_1721283870297_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/923287339",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "教育::江苏教育": {
+        "groupName": "教育",
+        "channelName": "江苏教育",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/287\/493\/202104022139_5101012819_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/628008321",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "教育::山东教育": {
+        "groupName": "教育",
+        "channelName": "山东教育",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/199\/202509241938_1758698577926_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609154353",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "熊猫::熊猫频道01高清": {
+        "groupName": "熊猫",
+        "channelName": "熊猫频道01高清",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2202\/634\/723\/202206081044_2202634723_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609158151",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "熊猫::熊猫频道1": {
+        "groupName": "熊猫",
+        "channelName": "熊猫频道1",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/200\/699\/202209211759_2200200699_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608933610",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "熊猫::熊猫频道2": {
+        "groupName": "熊猫",
+        "channelName": "熊猫频道2",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/200\/717\/202209211759_2200200717_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608933640",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "熊猫::熊猫频道3": {
+        "groupName": "熊猫",
+        "channelName": "熊猫频道3",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/200\/738\/202209211759_2200200738_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608934619",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "熊猫::熊猫频道4": {
+        "groupName": "熊猫",
+        "channelName": "熊猫频道4",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/200\/771\/202209211800_2200200771_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608934721",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "熊猫::熊猫频道5": {
+        "groupName": "熊猫",
+        "channelName": "熊猫频道5",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/200\/791\/202209211800_2200200791_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608935104",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "熊猫::熊猫频道6": {
+        "groupName": "熊猫",
+        "channelName": "熊猫频道6",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/200\/817\/202209211800_2200200817_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608935797",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "熊猫::熊猫频道7": {
+        "groupName": "熊猫",
+        "channelName": "熊猫频道7",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/192\/831\/202209211800_2200192831_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609169286",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "熊猫::熊猫频道8": {
+        "groupName": "熊猫",
+        "channelName": "熊猫频道8",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/192\/881\/202209211800_2200192881_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609169287",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "熊猫::熊猫频道9": {
+        "groupName": "熊猫",
+        "channelName": "熊猫频道9",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/192\/899\/202209211800_2200192899_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609169226",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "熊猫::熊猫频道10": {
+        "groupName": "熊猫",
+        "channelName": "熊猫频道10",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/192\/937\/202209211800_2200192937_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609169285",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "综艺::CCTV3综艺": {
+        "groupName": "综艺",
+        "channelName": "CCTV3综艺",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/212\/864\/202204010055_1626679244629_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/624878271",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "综艺::CCTV11戏曲": {
+        "groupName": "综艺",
+        "channelName": "CCTV11戏曲",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/988\/610\/202204010054_1626677922732_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/667987558",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "综艺::CCTV15音乐": {
+        "groupName": "综艺",
+        "channelName": "CCTV15音乐",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5501\/083\/628\/202204010054_1626678245130_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/673168223",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "综艺::最强综艺趴": {
+        "groupName": "综艺",
+        "channelName": "最强综艺趴",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/315\/654\/202204010047_5101034202_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/629942228",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "综艺::江苏综艺频道": {
+        "groupName": "综艺",
+        "channelName": "江苏综艺频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/260\/513\/202104022039_5100186420_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/626065193",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "综艺::河北卫视": {
+        "groupName": "综艺",
+        "channelName": "河北卫视",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/316\/202512310003_1766556161260_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/962042070",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "少儿::CCTV14少儿": {
+        "groupName": "少儿",
+        "channelName": "CCTV14少儿",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/212\/875\/202204010054_1626678147073_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/624878440",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "少儿::嘉佳卡通": {
+        "groupName": "少儿",
+        "channelName": "嘉佳卡通",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2206\/172\/388\/202304101530_2206172388_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/614952364",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "少儿::优漫卡通频道": {
+        "groupName": "少儿",
+        "channelName": "优漫卡通频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/260\/553\/202104022139_5100186455_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/626064703",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "少儿::经典动画大集合": {
+        "groupName": "少儿",
+        "channelName": "经典动画大集合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/315\/652\/202204010055_5101034205_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/629942219",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "少儿::中学生": {
+        "groupName": "少儿",
+        "channelName": "中学生",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/019\/355\/202405081702_1715158115119_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/708869532",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "少儿::江苏教育": {
+        "groupName": "少儿",
+        "channelName": "江苏教育",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/287\/493\/202104022139_5101012819_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/628008321",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "少儿::新动漫": {
+        "groupName": "少儿",
+        "channelName": "新动漫",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/319\/202512290851_1766568052605_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/961930269",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "少儿::海南广播电视总台少儿频道": {
+        "groupName": "少儿",
+        "channelName": "海南广播电视总台少儿频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/328\/202605111614_1778232654695_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/962067523",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::新动力量创一流": {
+        "groupName": "纪实",
+        "channelName": "新动力量创一流",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/019\/523\/202506060000_1749138941378_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/713589837",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::CCTV9纪录": {
+        "groupName": "纪实",
+        "channelName": "CCTV9纪录",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5501\/083\/624\/202603081600_1772956792519_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/673168140",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::CGTN外语纪录": {
+        "groupName": "纪实",
+        "channelName": "CGTN外语纪录",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2200\/179\/356\/202502251602_1740470541608_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/609006487",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::CCTV10科教": {
+        "groupName": "纪实",
+        "channelName": "CCTV10科教",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/212\/874\/202204010054_1626677767922_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/624878405",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::南京教科频道": {
+        "groupName": "纪实",
+        "channelName": "南京教科频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5910\/021\/865\/202307121700_1689146730747_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/838153729",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::CCTV1综合": {
+        "groupName": "纪实",
+        "channelName": "CCTV1综合",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/2201\/057\/821\/202204010054_1626677671392_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/608807420",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::CCTV2财经": {
+        "groupName": "纪实",
+        "channelName": "CCTV2财经",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/346\/945\/202205311432_1626678578843_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/631780532",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::CCTV4中文国际": {
+        "groupName": "纪实",
+        "channelName": "CCTV4中文国际",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5500\/346\/947\/202204010054_1626679413842_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/631780421",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::CCTV7国防军事": {
+        "groupName": "纪实",
+        "channelName": "CCTV7国防军事",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/image\/5501\/083\/622\/202204010054_1626680119210_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/673168121",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::中华特产": {
+        "groupName": "纪实",
+        "channelName": "中华特产",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/295\/202511061701_1762241728018_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/959986618",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::环球旅游": {
+        "groupName": "纪实",
+        "channelName": "环球旅游",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/200\/202509251348_1758698362959_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/958475356",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::梨园频道": {
+        "groupName": "纪实",
+        "channelName": "梨园频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/344\/202604101045_1774936529944_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/961930369",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::海南广播电视总台社会与法频道": {
+        "groupName": "纪实",
+        "channelName": "海南广播电视总台社会与法频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/323\/202605111613_1778233391251_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/962045223",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "纪实::海南广播电视总台文旅频道": {
+        "groupName": "纪实",
+        "channelName": "海南广播电视总台文旅频道",
+        "logo": "http:\/\/wapx.cmvideo.cn:8080\/publish\/poms\/v1\/image\/5910\/022\/329\/202605111613_1778233282865_H32_1080.webp",
+        "sources": [
+            {
+                "url": "http:\/\/localhost:1905\/962067526",
+                "source": "咪咕"
+            }
+        ]
+    },
+    "少儿::浙江少儿": {
+        "groupName": "少儿",
+        "channelName": "浙江少儿",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/ali-xwl.cztv.com\/live\/channel081080Plxw.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "少儿::南京少儿": {
+        "groupName": "少儿",
+        "channelName": "南京少儿",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/nklive.nbs.cn\/hls\/e0981f3f-1a20-4a59-b8d1-17feb83a4610\/index.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "综艺::苏州娱乐": {
+        "groupName": "综艺",
+        "channelName": "苏州娱乐",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/live-auth.51kandianshi.com\/szgd\/csztv4.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "综艺::南宁娱乐": {
+        "groupName": "综艺",
+        "channelName": "南宁娱乐",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/hls.nntv.cn\/nnlive\/YSYL_244.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "综艺::云南娱乐": {
+        "groupName": "综艺",
+        "channelName": "云南娱乐",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/hwapi.yntv.net\/62hdvf\/q9vs1b.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "综艺::澳门综艺": {
+        "groupName": "综艺",
+        "channelName": "澳门综艺",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/amzy",
+                "source": "外部"
+            }
+        ]
+    },
+    "综艺::梨园频道": {
+        "groupName": "综艺",
+        "channelName": "梨园频道",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/dxtx.hntv.tv\/live\/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=1966aa8a0405e1541cff782f56c75447&wsTime=1770400669",
+                "source": "外部"
+            }
+        ]
+    },
+    "综艺::河南曲艺": {
+        "groupName": "综艺",
+        "channelName": "河南曲艺",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/dxtx.hntv.tv\/live\/jczy.m3u8?txSecret=e785008e49564e5e738439b4dd2ae68e&txTime=7C4C6207&wsSecret=3f9e1d6e5c78cea99a876ce40f13202b&wsTime=1770400669",
+                "source": "外部"
+            }
+        ]
+    },
+    "体育::澳门体育": {
+        "groupName": "体育",
+        "channelName": "澳门体育",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/amty",
+                "source": "外部"
+            }
+        ]
+    },
+    "体育::Red Bull TV": {
+        "groupName": "体育",
+        "channelName": "Red Bull TV",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/rbmn-live.akamaized.net\/hls\/live\/590964\/BoRB-AT\/master_3360.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::凤凰中文": {
+        "groupName": "亚太",
+        "channelName": "凤凰中文",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/fhzw",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::凤凰资讯": {
+        "groupName": "亚太",
+        "channelName": "凤凰资讯",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/fhzx",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::凤凰香港": {
+        "groupName": "亚太",
+        "channelName": "凤凰香港",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/fhhk",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::Astro AOD": {
+        "groupName": "亚太",
+        "channelName": "Astro AOD",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/o11.163189.xyz\/stream\/live\/aod\/",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::Astro AEC": {
+        "groupName": "亚太",
+        "channelName": "Astro AEC",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/o11.163189.xyz\/stream\/live\/aec\/",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::无线新闻": {
+        "groupName": "亚太",
+        "channelName": "无线新闻",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/wxxw",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::TVBS亚洲": {
+        "groupName": "亚太",
+        "channelName": "TVBS亚洲",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/38.64.72.148\/hls\/modn\/list\/4005\/playlist.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::NOW新闻": {
+        "groupName": "亚太",
+        "channelName": "NOW新闻",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn.163189.xyz\/163189\/now",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::CH5": {
+        "groupName": "亚太",
+        "channelName": "CH5",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/ch5",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::CH8": {
+        "groupName": "亚太",
+        "channelName": "CH8",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/ch8",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::CHU": {
+        "groupName": "亚太",
+        "channelName": "CHU",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/chu",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::翡翠台": {
+        "groupName": "亚太",
+        "channelName": "翡翠台",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/o11.163189.xyz\/stream\/tvb\/fct\/",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::明珠台": {
+        "groupName": "亚太",
+        "channelName": "明珠台",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/o11.163189.xyz\/stream\/tvb\/mzt\/",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::华视": {
+        "groupName": "亚太",
+        "channelName": "华视",
+        "logo": "",
+        "sources": [
+            {
+                "url": "rtmp:\/\/f13h.mine.nu\/sat\/tv111",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::台视": {
+        "groupName": "亚太",
+        "channelName": "台视",
+        "logo": "",
+        "sources": [
+            {
+                "url": "rtmp:\/\/f13h.mine.nu\/sat\/tv071",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::中视": {
+        "groupName": "亚太",
+        "channelName": "中视",
+        "logo": "",
+        "sources": [
+            {
+                "url": "rtmp:\/\/f13h.mine.nu\/sat\/tv091",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::纬来育乐": {
+        "groupName": "亚太",
+        "channelName": "纬来育乐",
+        "logo": "",
+        "sources": [
+            {
+                "url": "rtmp:\/\/f13h.mine.nu\/sat\/tv701",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::纬来日本": {
+        "groupName": "亚太",
+        "channelName": "纬来日本",
+        "logo": "",
+        "sources": [
+            {
+                "url": "rtmp:\/\/f13h.mine.nu\/sat\/tv771",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::东森超视": {
+        "groupName": "亚太",
+        "channelName": "东森超视",
+        "logo": "",
+        "sources": [
+            {
+                "url": "rtmp:\/\/f13h.mine.nu\/sat\/tv331",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::八度空间": {
+        "groupName": "亚太",
+        "channelName": "八度空间",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/8tv",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::澳视澳门": {
+        "groupName": "亚太",
+        "channelName": "澳视澳门",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/asam",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::澳门莲花": {
+        "groupName": "亚太",
+        "channelName": "澳门莲花",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/amlh",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::TVB Plus": {
+        "groupName": "亚太",
+        "channelName": "TVB Plus",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/o11.163189.xyz\/stream\/tvb\/tvbp\/",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::HOY77": {
+        "groupName": "亚太",
+        "channelName": "HOY77",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/hoy",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::HOY78": {
+        "groupName": "亚太",
+        "channelName": "HOY78",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn.163189.xyz\/163189\/hoy78",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::RTHK 32": {
+        "groupName": "亚太",
+        "channelName": "RTHK 32",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn.163189.xyz\/163189\/rthk32",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::ViuTV": {
+        "groupName": "亚太",
+        "channelName": "ViuTV",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/cdn.163189.xyz\/163189\/viu",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::非凡新聞": {
+        "groupName": "亚太",
+        "channelName": "非凡新聞",
+        "logo": "",
+        "sources": [
+            {
+                "url": "rtmp:\/\/f13h.mine.nu\/sat\/tv581",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::耀才财经": {
+        "groupName": "亚太",
+        "channelName": "耀才财经",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/v3.mediacast.hk\/webcast\/bshdlive-pc\/playlist.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::泰国ASTV": {
+        "groupName": "亚太",
+        "channelName": "泰国ASTV",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/news1.live14.com\/stream\/news1_hi.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "亚太::朝鲜中央台": {
+        "groupName": "亚太",
+        "channelName": "朝鲜中央台",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/119.77.96.184:1935\/chn05\/chn05\/chunklist_w644291506.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::龙华偶像": {
+        "groupName": "影视",
+        "channelName": "龙华偶像",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn8.163189.xyz\/163189\/lhox",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::龙华日韩": {
+        "groupName": "影视",
+        "channelName": "龙华日韩",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn8.163189.xyz\/163189\/lhrh",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::龙华戏剧": {
+        "groupName": "影视",
+        "channelName": "龙华戏剧",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn8.163189.xyz\/163189\/lhxj",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::龙华电影": {
+        "groupName": "影视",
+        "channelName": "龙华电影",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/cdn8.163189.xyz\/163189\/lhdy",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::龙华经典": {
+        "groupName": "影视",
+        "channelName": "龙华经典",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/cdn8.163189.xyz\/163189\/lhjd",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::重温经典": {
+        "groupName": "影视",
+        "channelName": "重温经典",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/cwjd",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::TVB武侠": {
+        "groupName": "影视",
+        "channelName": "TVB武侠",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/cdn6.163189.xyz\/163189\/yzwx",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::TVB星河": {
+        "groupName": "影视",
+        "channelName": "TVB星河",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/o11.163189.xyz\/stream\/live\/tvbxh\/",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::千禧经典": {
+        "groupName": "影视",
+        "channelName": "千禧经典",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/o11.163189.xyz\/stream\/live\/tvbc\/",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::天映频道": {
+        "groupName": "影视",
+        "channelName": "天映频道",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/o11.163189.xyz\/stream\/live\/typd\/",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::ASTRO爱奇艺": {
+        "groupName": "影视",
+        "channelName": "ASTRO爱奇艺",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/o11.163189.xyz\/stream\/live\/iqiyi\/",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::邵氏动作": {
+        "groupName": "影视",
+        "channelName": "邵氏动作",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/feilong123.vip\/409990236\/tv.php?id=ssdz",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::邵氏电影": {
+        "groupName": "影视",
+        "channelName": "邵氏电影",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/feilong123.vip\/409990236\/tv.php?id=ssdy",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::邵氏武侠": {
+        "groupName": "影视",
+        "channelName": "邵氏武侠",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/feilong123.vip\/409990236\/tv.php?id=sswx",
+                "source": "外部"
+            }
+        ]
+    },
+    "影视::邵氏喜剧": {
+        "groupName": "影视",
+        "channelName": "邵氏喜剧",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/feilong123.vip\/409990236\/tv.php?id=ssxj",
+                "source": "外部"
+            }
+        ]
+    },
+    "纪实::文物宝库": {
+        "groupName": "纪实",
+        "channelName": "文物宝库",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/dxtx.hntv.tv\/live\/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&txTime=7C4C635C&wsSecret=87c5daf4f4c3a09fb4e4cce0843d4a1c&wsTime=1770400669",
+                "source": "外部"
+            }
+        ]
+    },
+    "纪实::WildEarth": {
+        "groupName": "纪实",
+        "channelName": "WildEarth",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/wildearth-plex.amagi.tv\/masterR1080p.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "卫视::湖南卫视4K": {
+        "groupName": "卫视",
+        "channelName": "湖南卫视4K",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/hlsal-ldvt.qing.mgtv.com\/nn_live\/nn_x64\/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi\/HNWSZGST.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "卫视::东方卫视4K": {
+        "groupName": "卫视",
+        "channelName": "东方卫视4K",
+        "logo": "",
+        "sources": [
+            {
+                "url": "https:\/\/bp-resource-dfl.bestv.cn\/148\/3\/video.m3u8",
+                "source": "外部"
+            }
+        ]
+    },
+    "卫视::浙江卫视4K": {
+        "groupName": "卫视",
+        "channelName": "浙江卫视4K",
+        "logo": "",
+        "sources": [
+            {
+                "url": "http:\/\/ali-xwl.cztv.com\/live\/channel4k2160p.m3u8",
+                "source": "外部"
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "sources": [
+        {
+            "id": "vl-sports",
+            "name": "纬来体育",
+            "group": "体育",
+            "mode": "fetch",
+            "webUrl": "https://www.jrkan66.com/wlty.html",
+            "enabled": true,
+            "updateOnStartup": true,
+            "autoRefresh": true,
+            "refreshInterval": 60,
+            "extractOptions": {
+                "waitTime": 3000,
+                "headless": true
+            },
+            "description": "台湾纬来体育频道（需要网页抓取）"
+        }
+    ]
+}

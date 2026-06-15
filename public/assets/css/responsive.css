@@ -1,0 +1,123 @@
+@media (min-width: 1200px) {
+    .channel-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .sidebar {
+        width: 60px;
+        overflow: hidden;
+    }
+    .sidebar-header {
+        display: none;
+    }
+    .sidebar-item span {
+        display: none;
+    }
+    .sidebar-item {
+        justify-content: center;
+        padding: 12px;
+    }
+    .content {
+        margin-left: 60px;
+    }
+    .player-bar {
+        left: 60px;
+    }
+    #videoPlayer {
+        left: 60px;
+    }
+    .channel-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        display: none;
+    }
+    .content {
+        margin-left: 0;
+        padding: 12px;
+        padding-bottom: 80px;
+    }
+    .channel-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .apple-navbar {
+        padding: 0 12px;
+    }
+    .nav-search {
+        display: none;
+    }
+    .nav-title {
+        font-size: 15px;
+    }
+    .mobile-tab-bar {
+        display: flex;
+    }
+    .player-bar {
+        left: 0;
+        bottom: 60px;
+    }
+    #videoPlayer {
+        left: 0;
+        bottom: 116px;
+    }
+    .content-header h2 {
+        font-size: 18px;
+    }
+    .channel-card-logo {
+        height: 80px;
+    }
+    .channel-card-name {
+        font-size: 13px;
+    }
+    .modal {
+        width: 95vw;
+        max-height: 80vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .channel-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    .channel-card-info {
+        padding: 8px;
+    }
+    .channel-card-actions {
+        padding: 0 8px 8px;
+    }
+    .content {
+        padding: 8px;
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 375px) {
+    .channel-grid {
+        grid-template-columns: 1fr;
+    }
+    .channel-card {
+        display: flex;
+        flex-direction: row;
+    }
+    .channel-card-logo {
+        width: 80px;
+        height: auto;
+        min-height: 80px;
+    }
+    .channel-card-info {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .channel-card-actions {
+        padding: 0 8px 8px;
+    }
+}
