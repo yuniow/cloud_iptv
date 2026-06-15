@@ -26,7 +26,7 @@ IPTV 直播源管理与分发系统
 
 ### 1. 上传文件
 
-将项目文件上传到 Web 服务器目录，例如 `/www/wwwroot/ciptv.miwap.com`
+将项目文件上传到 Web 服务器目录，例如 `/www/wwwroot/your-domain.com`
 
 ### 2. 配置 Web 服务器
 
@@ -35,7 +35,7 @@ IPTV 直播源管理与分发系统
 server {
     listen 80;
     server_name your-domain.com;
-    root /www/wwwroot/ciptv.miwap.com/public;
+    root /www/wwwroot/your-domain.com/public;
     index index.php index.html;
 
     location / {
