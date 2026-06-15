@@ -1,0 +1,32 @@
+# 用户数据 - 更新时必须保留
+data/
+
+# PHP 运行时
+vendor/
+composer.lock
+
+# Node 开发依赖
+node_modules/
+
+# 编辑器/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS 文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 测试文件
+test_*.php
+fix_*.js
+scan_*.js
+check_*.js
+analyze*.js
+search*.js
+search*.ps1

@@ -64,7 +64,17 @@ chmod -R 755 data/
 chmod 666 data/cloudiptv.db
 ```
 
-### 4. 访问后台
+### 4. 升级更新
+
+⚠️ **更新代码时请勿覆盖 `data/` 目录**，该目录包含数据库和配置文件：
+
+```bash
+# 推荐更新方式：只更新代码文件，保留 data/ 目录
+git pull
+# 或手动替换以下目录/文件：app/、config/、public/、vendor/、cron_*.php
+```
+
+### 5. 访问后台
 
 浏览器打开 `http://your-domain/admin`，默认账号密码：`admin / admin`
 
