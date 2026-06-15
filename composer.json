@@ -1,7 +1,7 @@
 {
     "name": "cloudiptv/cloudiptv",
     "description": "CloudIPTV - PHP IPTV直播源管理与分发系统",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "project",
     "license": "GPL-3.0",
     "minimum-stability": "stable",
