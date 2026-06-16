@@ -107,7 +107,9 @@ class ExternalSourceService
         $config = self::loadSources();
         if (isset($config['sources'][$index])) {
             array_splice($config['sources'], $index, 1);
-            return self::saveSources($config);
+            self::saveSources($config);
+            \App\Services\UpdateService::regeneratePlaylists();
+            return ['success' => true];
         }
         return ['success' => false, 'message' => '索引无效'];
     }
@@ -130,6 +132,7 @@ class ExternalSourceService
         if (empty($source['webUrl']) && !empty($source['m3u8Url'])) {
             $source['lastUpdated'] = date('c');
             self::saveSources($config);
+            \App\Services\UpdateService::regeneratePlaylists();
             return ['success' => true, 'm3u8Url' => $source['m3u8Url']];
         }
 
@@ -149,6 +152,7 @@ class ExternalSourceService
         $source['m3u8Url'] = $bestUrl;
         $source['lastUpdated'] = date('c');
         self::saveSources($config);
+        \App\Services\UpdateService::regeneratePlaylists();
         return ['success' => true, 'm3u8Url' => $bestUrl];
     }
 
@@ -171,6 +175,10 @@ class ExternalSourceService
         $source['parsedChannels'] = $channels;
         $source['lastUpdated'] = date('c');
         self::saveSources($config);
+
+        // 重建 interface.txt / txt / channel-sources.json
+        \App\Services\UpdateService::regeneratePlaylists();
+
         return ['success' => true, 'channelCount' => count($channels)];
     }
 

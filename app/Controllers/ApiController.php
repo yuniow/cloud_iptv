@@ -48,6 +48,23 @@ class ApiController
             if ($token === '') {
                 $token = $_COOKIE['admin_token'] ?? '';
             }
+
+            if ($token === '' || AdminAuthService::verify($token) === null) {
+                $this->json(['success' => false, 'message' => '请先登录', 'code' => 401], 401);
+                return;
+            }
+
+            if ($method === 'POST' || $method === 'DELETE') {
+                $origin = $_SERVER['HTTP_ORIGIN'] ?? $_SERVER['HTTP_REFERER'] ?? '';
+                $host = $_SERVER['HTTP_HOST'] ?? '';
+                if ($origin !== '' && !str_contains($origin, $host)) {
+                    $this->json(['success' => false, 'message' => '请求来源非法'], 403);
+                    return;
+                }
+            }
+            if ($token === '') {
+                $token = $_COOKIE['admin_token'] ?? '';
+            }
             if ($token === '' || AdminAuthService::verify($token) === null) {
                 $this->json(['success' => false, 'message' => '未登录或登录已过期'], 401);
                 return;
@@ -199,6 +216,40 @@ class ApiController
             $builtInChannels = BuiltInSourceService::getChannels();
             $externalChannels = ExternalSourceService::getValidChannels();
             $allChannels = array_merge($channels, $builtInChannels, $externalChannels);
+
+            // 从 channel-sources.json 加载多线路信息
+            $sourceMap = [];
+            $csPath = dirname(__DIR__, 2) . '/data/channel-sources.json';
+            if (file_exists($csPath)) {
+                $csData = json_decode(file_get_contents($csPath), true) ?? [];
+                foreach ($csData as $key => $ch) {
+                    $parts = explode('::', $key, 2);
+                    $groupName = $parts[0] ?? '';
+                    $channelName = $parts[1] ?? '';
+                    $sources = $ch['sources'] ?? [];
+                    if (count($sources) > 1) {
+                        $sourceMap[$groupName . '::' . $channelName] = $sources;
+                    }
+                }
+            }
+
+            // 为多线路频道附带 sources 信息
+            foreach ($allChannels as &$group) {
+                foreach (($group['channels'] ?? []) as &$ch) {
+                    $mapKey = ($group['name'] ?? '') . '::' . ($ch['name'] ?? '');
+                    if (isset($sourceMap[$mapKey])) {
+                        $ch['sources'] = $sourceMap[$mapKey];
+                        $ch['sourceCount'] = count($sourceMap[$mapKey]);
+                        $ch['currentSource'] = 0;
+                    } else {
+                        $ch['sourceCount'] = 0;
+                        $ch['currentSource'] = 0;
+                    }
+                }
+                unset($ch);
+            }
+            unset($group);
+
             $this->json(['success' => true, 'data' => $allChannels]);
         } catch (\Exception $e) {
             $this->json(['success' => false, 'message' => '服务器内部错误，请稍后重试'], 500);
@@ -546,6 +597,8 @@ class ApiController
                     $ch['nowPlaying'] = $epg['now'] ?? '';
                     $ch['nextPlaying'] = $epg['next'] ?? '';
                     $ch['epgIcon'] = $epg['icon'] ?? '';
+                    $ch['sourceCount'] = count($ch['sources'] ?? []);
+                    $ch['currentSource'] = 0;
                 }
             }
             unset($group, $ch);
@@ -832,7 +885,7 @@ class ApiController
         $composerFile = dirname(__DIR__, 2) . '/composer.json';
         if (file_exists($composerFile)) {
             $pkg = json_decode(file_get_contents($composerFile), true);
-            $currentVersion = $pkg['version'] ?? '1.0.0';
+            $currentVersion = $pkg['version'] ?? '1.1.0';
         }
 
         $remoteVersion = null;

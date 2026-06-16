@@ -61,26 +61,103 @@ class PlaylistConfigService
                     $channelName = trim($nameMatch[1]);
                     $url = trim($lines[$i + 1]);
                     $tvgName = $tvgNameMatch[1] ?? $channelName;
-                    $channelId = self::buildChannelId($groupName, $channelName, $tvgName, $url);
+                    $logo = $tvgLogoMatch[1] ?? '';
 
                     if (!isset($groups[$groupName])) {
                         $groups[$groupName] = [];
                     }
-                    $groups[$groupName][] = [
-                        'id' => $channelId,
-                        'name' => $channelName,
-                        'tvgId' => $tvgIdMatch[1] ?? '',
-                        'tvgName' => $tvgName,
-                        'logo' => $tvgLogoMatch[1] ?? '',
-                        'url' => $url,
-                        'originalGroup' => $groupName,
-                    ];
+
+                    // 从 URL 判断源类型
+                    $srcType = preg_match('#/\d{5,}/?$#', $url) ? '咪咕' : '外部';
+
+                    // 先在当前分组精确匹配
+                    $existingIdx = null;
+                    foreach ($groups[$groupName] as $idx => $existing) {
+                        if ($existing['name'] === $channelName) {
+                            $existingIdx = $idx;
+                            break;
+                        }
+                    }
+
+                    // 如果当前分组没匹配，且是央视/卫视相关分组，尝试跨分组模糊匹配
+                    if ($existingIdx === null) {
+                        $normName = self::normalizeChannelName($channelName);
+                        foreach ($groups as $gName => &$gChannels) {
+                            if (!self::isCctvOrWeishiGroup($gName) || !self::isCctvOrWeishiGroup($groupName)) {
+                                continue;
+                            }
+                            foreach ($gChannels as $idx => $existing) {
+                                if (self::normalizeChannelName($existing['name']) === $normName && $normName !== '') {
+                                    // 找到匹配：将频道合并到匹配的分组中
+                                    $gChannels[$idx]['sources'][] = [
+                                        'url' => $url,
+                                        'source' => $srcType,
+                                    ];
+                                    $existingIdx = '__merged__';
+                                    break 2;
+                                }
+                            }
+                        }
+                        unset($gChannels);
+                    }
+
+                    if ($existingIdx === '__merged__') {
+                        // 已合并到其他分组，跳过
+                    } elseif ($existingIdx !== null) {
+                        // 同分组同名：追加线路
+                        $groups[$groupName][$existingIdx]['sources'][] = [
+                            'url' => $url,
+                            'source' => $srcType,
+                        ];
+                    } else {
+                        // 新频道
+                        $channelId = self::buildChannelId($groupName, $channelName, $tvgName, $url);
+                        $groups[$groupName][] = [
+                            'id' => $channelId,
+                            'name' => $channelName,
+                            'tvgId' => $tvgIdMatch[1] ?? '',
+                            'tvgName' => $tvgName,
+                            'logo' => $logo,
+                            'url' => $url,
+                            'originalGroup' => $groupName,
+                            'sources' => [
+                                ['url' => $url, 'source' => $srcType],
+                            ],
+                        ];
+                    }
                     $i++;
                 }
             }
         }
 
         return array_map(fn($name, $channels) => ['name' => $name, 'channels' => $channels], array_keys($groups), $groups);
+    }
+
+    private static function isCctvOrWeishiGroup(string $groupName): bool
+    {
+        return in_array($groupName, ['央视', 'CCTV', '卫视', '地方卫视'], true)
+            || str_contains($groupName, '央视') || str_contains($groupName, '卫视');
+    }
+
+    private static function normalizeChannelName(string $name): string
+    {
+        // 去除分辨率/画质后缀：4K, HD, (720p), (1080p) 等
+        $name = preg_replace('/\s*(4K|HD|SD|FHD|UHD)\s*/i', '', $name);
+        $name = preg_replace('/\s*\(\d+p\)\s*/i', '', $name);
+        $name = preg_replace('/\s*\[\S+\]\s*/', '', $name);
+        $name = trim($name);
+
+        // 央视：提取 CCTV{N} 或 CCTV{N}+ 核心名
+        if (preg_match('/^CCTV[\s-]*(\d+\+?)/i', $name, $m)) {
+            return 'CCTV' . $m[1];
+        }
+
+        // 卫视：保留省名+卫视
+        if (preg_match('/^(.+?卫视)/', $name, $m)) {
+            return $m[1];
+        }
+
+        return $name;
     }
 
     public static function applyConfig(array $groups, array $config): array

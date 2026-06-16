@@ -252,11 +252,23 @@ class Routes
         $urlParts = explode('/', trim($routeUrl, '/'));
         $pid = $urlParts[0] ?? '';
         $params = '';
+        $sourceIndex = 0;
 
         if (str_contains($pid, '?')) {
             $pidParts = explode('?', $pid, 2);
             $pid = $pidParts[0];
             $params = $pidParts[1];
+        }
+
+        // 解析 source=N 参数
+        if ($params !== '') {
+            parse_str($params, $parsedParams);
+            if (isset($parsedParams['source'])) {
+                $sourceIndex = (int)$parsedParams['source'];
+                // 从 params 中移除 source 参数，保留其他参数
+                unset($parsedParams['source']);
+                $params = http_build_query($parsedParams);
+            }
         }
 
         if (!is_numeric($pid)) {
@@ -265,6 +277,31 @@ class Routes
             echo json_encode(['success' => false, 'message' => '地址格式错误']);
             return;
         }
+
+        // 尝试从 channel-sources.json 获取指定线路的 URL
+        $directUrl = '';
+        try {
+            $srcFile = dirname(__DIR__, 2) . '/data/channel-sources.json';
+            if (file_exists($srcFile)) {
+                $srcData = json_decode(file_get_contents($srcFile), true) ?? [];
+                foreach ($srcData as $ch) {
+                    $sources = $ch['sources'] ?? [];
+                    foreach ($sources as $idx => $src) {
+                        $srcUrl = $src['url'] ?? '';
+                        if (str_contains($srcUrl, "/{$pid}") || str_contains($srcUrl, "/{$pid}?")) {
+                            if ($idx === $sourceIndex && ($src['source'] ?? '') !== '咪咕') {
+                                // 非咪咕源：直接使用源 URL（去除代理前缀）
+                                $directUrl = preg_replace('#^https?://[^/]+/\d+/#', '', $srcUrl);
+                                $directUrl = preg_replace('#^https?://[^/]+/\d+\?#', '', $srcUrl);
+                                // 从 channel-sources 中提取原始播放 URL
+                                $directUrl = $srcUrl;
+                            }
+                            break 2;
+                        }
+                    }
+                }
+            }
+        } catch (\Exception $e) {}
 
         $rateType = (int)AppConfig::get('rateType', 3);
         $enableHDR = AppConfig::get('enableHDR', true);
@@ -284,6 +321,11 @@ class Routes
         }
 
         $playUrl = $resObj['url'] ?? '';
+
+        // 如果有直接源 URL（非咪咕），且 CryptoHelper 未返回有效 URL，则使用源 URL
+        if ($directUrl !== '' && ($playUrl === '' || str_starts_with($playUrl, 'http://127.0.0.1'))) {
+            $playUrl = $directUrl;
+        }
 
         if ($playUrl === '') {
             http_response_code(503);
